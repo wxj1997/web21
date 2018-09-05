@@ -89,4 +89,24 @@
     <servlet-name>ProductListServlet</servlet-name>
     <url-pattern>/productList</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckUsernameServlet</display-name>
+    <servlet-name>CheckUsernameServlet</servlet-name>
+    <servlet-class>com.itheima.web.CheckUsernameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckUsernameServlet</servlet-name>
+    <url-pattern>/checkUsername</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SearchWordServlet</display-name>
+    <servlet-name>SearchWordServlet</servlet-name>
+    <servlet-class>com.itheima.web.SearchWordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchWordServlet</servlet-name>
+    <url-pattern>/searchWord</url-pattern>
+  </servlet-mapping>
 </web-app>
